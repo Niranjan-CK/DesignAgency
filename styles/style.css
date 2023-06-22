@@ -1,0 +1,621 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'popins', sans-serif;
+
+}
+body{
+    background-color: #ffffff;
+}
+
+/* common */
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.column{
+    /* text-align: center; */
+    margin: 10px 10px 0px 10px;
+}
+.da_sub_heading_sec{
+     width: 495px;
+    height: 90px;
+    /*font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    top: 20px;
+    position: relative;
+    
+    color: #000000; */
+    color: #000;
+    margin-left: 30px;
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.da_sub_para{
+    color: #000;
+    font-size: 1.25rem;
+    font-family: 'Avenir';
+    font-weight: 500;
+}
+.da_sub_para_sec{
+    color: #000;
+    font-size: 1.125rem;
+    font-family: Avenir;
+    margin: 5px;
+}
+.da_sub_heading{
+    text-transform: uppercase;
+    color: #20B15A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 30px;
+
+}
+.da_btn{
+    border: none;
+    padding: 10px 19.5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+/* end common */
+
+/* main */
+.main_section{
+    height: 100vh;
+    background-color: #D7F5DC;
+}
+.navigation{
+    display: flex;
+    padding: 20px 50px 50px 90px;
+    justify-content: space-between;
+}
+.heading_one , .heading_two{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.design_agency{
+    list-style: none;
+}
+.heading_two{
+    color: #F55F1D;
+    text-transform: uppercase;
+}
+
+.da_login{
+    background-color: transparent;
+    border: 1px solid #20B15A;
+}
+.da_register{
+    background-color: #20B15A;
+    color: #fff;
+}
+.da_link{
+    text-decoration: none;
+    color:#000
+
+}
+.da_main_img{
+    width: 42rem;
+    /* height: 500px; */
+    height: 35.25rem;
+    flex-shrink: 0;
+    margin-top: -20px;
+
+}
+.main_section_img{
+    width: 100%;
+    height: 100%;
+}
+
+.main_para{
+    width: 472px;
+    height: 54px;
+    margin: 5px;
+}
+.main_text{
+    
+    font-size: 1.7rem !important;
+    font-weight: 700;
+    color: #000;
+    margin: 10px;
+    justify-content: center;
+    /* background-color: #F55F1D; */
+    padding-top: 50px;
+    cursor: default;
+}
+.menu_section_button{
+    border: 1px solid #20B15A;
+    font-size: 20px;
+    background-color: #20B15A;
+    color: #fff;
+    width: 175px;
+    height: 70px;
+    clear: both;
+    margin-top: 30px;
+}
+.sponcers{
+    height: 7.5rem;
+    width:100%;
+    align-self: flex-end;
+    background-color: #F8FFF9;
+    justify-content: last baseline;
+    align-items: first baseline;
+
+}
+.sponcers_logo{
+    
+    width: 130px;
+    height: 40px;
+}
+.sponcers_logo img{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* end main */
+
+
+
+/* section one */
+
+.sections{
+    padding: 50px;
+}
+.card{
+    margin-top: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+}
+.card_image{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.card_texts{
+    margin: 5px;
+}
+.card_button{
+    padding: 15px 30px;
+    margin-top: 30px;
+    
+    background-color: transparent;
+    /* width: 159px; */
+    height: 55px;
+    border: 0px;
+}
+.row .card:hover{
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+.card:hover .card_button{
+    background-color: #F55F1D;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* section two */
+
+.da_section_two{
+    background-color: #FAFFFB;
+}
+
+.report_card{
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.reprt_card_image{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.vl {
+    border-left: 1px solid #C4C4C4;
+    height:250px;
+}
+.report{
+    align-items: center;
+    justify-content: center;
+}
+.report_count{
+    font-size: 40px;
+    font-weight: 700;
+    color:#20B15A;
+    margin-top: 20px;
+}
+/* end section two */
+
+
+/* section three */
+
+.article{
+    width: 561px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -50px;
+    
+}
+.article img{
+    width: 100%;
+}
+.article_text{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* end section three */
+
+/* section four */
+.review_card{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
+.reviewer_details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.profile_picture{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color:  #E1EDFB;
+    overflow: hidden;
+
+}
+.profile_picture img{
+    width: 100%;
+    height: 100%;
+}
+.reviewer_name h2{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000000;
+}
+.card_shadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.review_card::-webkit-scrollbar {
+    display: none;
+}
+
+.section_four_head{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow_buttons{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    font-size: 20px;
+
+}
+.arrow{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+
+}
+
+.backward_arrow
+{
+    
+    border: 1px solid black;
+    
+}
+.forward_arrow{
+    background-color: #D7F5DC;
+}
+.backward_arrow img{
+    margin: 9px;
+    
+}
+.forward_arrow img{
+    margin-left: 13px;
+    margin-top: 9px;
+}
+.arrow img{
+    width: 14.36px;
+    height: 24.94px;
+}
+/* end section four */
+
+/* section five */
+.subscribtion_section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 150px;
+  }
+  .subscription_content{
+    /* margin-top: 20px; */
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #8B8B8B;
+  }
+  .subscription_form{
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .input_field{
+    padding: 20px 16px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 14px;
+   
+
+  }
+  .input_field input{
+    border: none;
+    width: 100%;
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: capitalize;
+
+    color: #8B8B8B;
+  }
+
+.btn_field{
+  
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 20px;
+    width: 30%;
+    
+}
+.btn_field button{
+    background-color: #F55F1D;
+    border: none;
+    padding: 20px;
+    border-radius: 14px;
+    width: 130px;
+    margin-right: -50px;
+    color: white;
+    font-size: 17px;
+
+}
+
+/* end section five */
+footer{
+    width: 100%;
+    background-color: #00CA72;
+    margin-top: 50px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.social_media{
+    margin-top: 20px;
+}
+.social_icons{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #20B15A;
+    width: 25px;
+    height: 25px;
+    /* margin: 10px 0px ; */
+    margin-left: -30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social_icons img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.footer_links{
+    list-style: none;
+
+}
+.footer_links li{
+    margin-top: 20px;
+}
+/* footer */
+
+
+/* end footer */
+
+/* animation */
+
+/* animation */
+.project::after{
+    content: '1400+';
+    animation: projectCount 2s ease-in-out;
+}
+@keyframes projectCount{
+    0%{
+        content: '100+';
+    }
+    10%{
+        content: '200+';
+    }
+    20%{
+        content: '300+';
+    }
+    30%{
+        content: '400+';
+    }
+    40%{
+        content: '500+';
+    }
+    50%{
+        content: '600+';
+    }
+    60%{
+        content: '700+';
+    }
+    70%{
+        content: '800+';
+    }
+    80%{
+        content: '900+';
+    }
+   
+
+    100%{
+        content: '1400+';
+    }
+}
+
+.customer_satisfaction::after{
+    content: '100%';
+    animation: customerSatisfactionCount 2s ease-in-out;
+}
+
+@keyframes customerSatisfactionCount{
+    0%{
+        content: '10%';
+    }
+    10%{
+        content: '20%';
+    }
+    20%{
+        content: '30%';
+    }
+    30%{
+        content: '40%';
+    }
+    40%{
+        content: '50%';
+    }
+    50%{
+        content: '60%';
+    }
+    60%{
+        content: '70%';
+    }
+    70%{
+        content: '80%';
+    }
+    80%{
+        content: '90%';
+    }
+   
+
+    100%{
+        content: '100%';
+    }
+}
+
+.clients::after{
+    content: '50M';
+    animation: clientsCount 2s ease-in-out;
+}
+
+@keyframes clientsCount{
+    0%{
+        content: '10M';
+    }
+    10%{
+        content: '20M';
+    }
+    20%{
+        content: '30M';
+    }
+    30%{
+        content: '40M';
+    }
+    100%{
+        content: '50M';
+    }
+}
+
+.years::after{
+    content: '21yrs';
+    animation: yearsCount 2s ease-in-out;
+}
+
+@keyframes yearsCount{
+    0%{
+        content: '10yrs';
+    }
+    10%{
+        content: '11yrs';
+    }
+    20%{
+        content: '12yrs';
+    }
+    30%{
+        content: '13yrs';
+    }
+    40%{
+        content: '14yrs';
+    }
+    50%{
+        content: '15yrs';
+    }
+    60%{
+        content: '16yrs';
+    }
+    70%{
+        content: '17yrs';
+    }
+    80%{
+        content: '18yrs';
+    }
+    90%{
+        content: '19yrs';
+    }
+    100%{
+        content: '21yrs';
+    }
+}
+
