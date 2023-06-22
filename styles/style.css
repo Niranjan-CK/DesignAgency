@@ -434,7 +434,7 @@ body{
 
 /* end section five */
 footer{
-    width: 100%;
+    /* width: 100%; */
     background-color: #00CA72;
     margin-top: 50px;
     padding: 50px;
